@@ -22,7 +22,6 @@ Allow user to see what MPs have said and to:
 
 ## Implementation
 
-See the issues on the
 ### Web Application
 
 This will use data from Hansard and save it into a database, and will provide the processing systems and API for the mobile apps to use.
