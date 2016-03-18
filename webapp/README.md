@@ -25,4 +25,4 @@ See [Djangae documentation](https://djangae.readthedocs.org) and [App Engine doc
 
 Note that the code is under the MIT license, and that by contributing you are releasing those contributions under the same license.
 
-See the GitHub issues for things to work on.
+See the GitHub issues and pick anything with the 'up-for-grabs' tag.  Do some coding and submit your pull request!
