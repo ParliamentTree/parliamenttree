@@ -23,6 +23,21 @@ See [Djangae documentation](https://djangae.readthedocs.org) and [App Engine doc
 
 ## Contributing
 
-Note that the code is under the MIT license, and that by contributing you are releasing those contributions under the same license.
+Note that the code is under the Apache license, and that by contributing you are releasing those contributions under the same license.
 
 See the GitHub issues and pick anything with the 'up-for-grabs' tag.  Do some coding and submit your pull request!
+
+
+
+
+## Running The Code
+
+System requirements: Git, Python 2.7.
+
+* Clone this repo
+* `cd webapp`
+* Run `./install_deps` (this will pip install requirements, and download the App Engine SDK).
+  - Note that because it's an App Engine application, the third party libraries need to be deployed inside the application folder, so they are downloaded into the 'third_party' folder, and consequently **you don't need a virtualenv**.
+  - The App Engine SDK is also downloaded into the thrid_party folder, but this only happens the first time that you run `./install_deps` (on subsequent runs, all packages defined in requirements.txt are re-downloaded, but the SDK is not).
+* `python manage.py checksecure --settings=scaffold.settings_live`
+* `python manage.py runserver`
