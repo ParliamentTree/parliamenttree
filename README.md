@@ -24,7 +24,7 @@ Allow user to see what their MP (and other MPs) have said in parliament and to:
 
 ### Web Application
 
-This will use data from Hansard and save it into a database, and will provide the processing systems and API for the mobile apps to use.
+This will use data from [Hansard](http://www.parliament.uk/business/publications/hansard/) and save it into a database, and will provide the processing systems and API for the mobile apps to use.
 The web application can also have a user-face UI if we want.
 
 The plan is to build the web application in Python using Django and hosting it on Google App Engine
