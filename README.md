@@ -7,7 +7,7 @@ It is current in its infacy and we are looking for developers and interface desi
 
 ## Functionality Aims
 
-Allow user to see what MPs have said and to:
+Allow user to see what their MP (and other MPs) have said in parliament and to:
 
 * Like or dislike individual speeches.
 * Vote on speeches which contain statistics to be fact checked (the most voted speeches may be submitted to [fullfact.org](https://fullfact.org/) for checking).
