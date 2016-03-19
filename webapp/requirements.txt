@@ -3,6 +3,7 @@ django>=1.7,<1.9
 django-secure
 django-csp
 git+https://github.com/adamalton/django-csp-reports.git#egg=cspreports
+git+https://github.com/adamalton/django-choices.git#egg=choices
 django-session-csrf
 nose
 six
