@@ -45,6 +45,8 @@ INSTALLED_APPS = (
     'djangae.contrib.gauth.datastore',
     'djangae.contrib.security',
     # 'djangae.contrib.uniquetool',
+
+    'pt.core',
 )
 
 MIDDLEWARE_CLASSES = (
