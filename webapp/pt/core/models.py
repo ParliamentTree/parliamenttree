@@ -67,11 +67,13 @@ class User(BaseModel): # TODO: subclass Django/Djangae user base model, or somet
     """ A public user who is registered on the site. """
 
     constituency = CharField(choices=CONSTITUENCIES.choices)
-    mp = models.ForeignKey(MP) # this can be calculated from constituency, but shortcut for speed.
+    # The MP can be calculated from constituency, but shortcut field for speed and convenience:
+    mp = models.ForeignKey(MP, related_name="constituents")
     follows_mps = RelatedSetField(
         MP,
         help_text="MPs which this user wants to get/see info/updates/notifications about",
         blank=True,
+        related_name="followers",
     )
     follows_keywords = SetField(
         CharField(),
