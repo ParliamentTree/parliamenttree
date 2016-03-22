@@ -41,6 +41,9 @@ class Speech(BaseModel):
     timestamp = models.DateTimeField(
         help_text="The time when the MP spoke these words (not when this was saved to the DB)"
     )
+    hansard_url = models.URLField(
+        help_text="The URL of where this speech is located on the Hansard website"
+    )
     text = models.TextField()
     keywords = SetField(
         CharField(),
