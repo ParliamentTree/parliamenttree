@@ -49,7 +49,4 @@ Lolz
 
 ## Get Involved!
 
-Have a look in the 'Issues' in this project for things tagged with 'up-for-grabs' to pick something to work on.
-Discuss the implementation on the issue if necessary, and then get your pull request submitted!
-
-Hit us up on Twitter [@ParliamentTree](https://twitter.com/parliamenttree) with any other questions.
+See the CONTRIBUTING.md file for info on getting involved.
