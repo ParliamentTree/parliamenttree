@@ -1,0 +1,9 @@
+cron:
+# - description: Keep alive
+#   url: /keep-alive/
+#   schedule: every 1 minutes
+
+
+ - description: Hansard speeches import
+   url: /hansard/import/
+   schedule: every 1 days 00:00
